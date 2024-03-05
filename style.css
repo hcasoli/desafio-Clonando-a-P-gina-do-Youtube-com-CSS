@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+--fonte-principal: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    max-width: 1550px;
+}
+
+body {
+    background-color: #F9F9F9;
+
+}
+
+#menu-principal {
+    height: 56px;
+    width: 1445px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    padding: 16px 24px;
+}
+
+.menu {
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#conteudo {
+    background-color: #F9F9F9;
+}
+
+#lupa {
+    position: absolute;
+    left: 910px;
+}
+
+#conteudo {
+    width: 900px;
+    height: 740px;
+    margin: 28px 25px 190px 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 20px;
+    margin-top: 16px;
+    text-align: justify;
+}
+
+.menu-inferior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+#info-canal{
+    /* height: 100%;
+    width: 160px; */
+    display: flex;
+    align-items: center;
+}
+
+#info-canal img{
+    margin-right: 12px;
+}
+
+.info-canal-detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.curtida{
+    width: 65px;
+}
+
+.descurtida{
+    width: 109px;
+}
+
+.compartilhar{
+    width: 125px;
+}
+
+.download{
+    width: 103px;
+}
+
+.info-canal-avatar h2{
+    font-size: 14px;
+    /* font-weight: bold; */
+}
+
+.info-canal-avatar p{
+    color: #515151;
+    font-size: 14px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    color: #FFF;
+    background-color: #CC0000;
+    border-radius: 3px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#recomendados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 160px;
+    height: 900px;
+    padding-top: 28px;
+    
+    /* margin-right: 20px; */
+}
+
+#recomendados img{
+    width: 160px;
+    height: 90px;
+}
+
+.recomendados-descricao {
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    margin-top: 15px;
+    width: 200px;
+    height: 90px;
+}
+.recomendados-descricao h2 {
+    font-size: 14px;
+}
+
+.recomendados-descricao p {
+    font-size: 12px;
+    color: #515151;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
